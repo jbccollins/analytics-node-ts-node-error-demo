@@ -1,0 +1,35 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+			"strict": true,
+			"rootDir": ".",
+			"sourceMap": true,
+			"declaration": false,
+			"moduleResolution": "node",
+			"emitDecoratorMetadata": true,
+			"experimentalDecorators": true,
+			"importHelpers": true,
+			"target": "es2022",
+			"module": "commonjs",
+			"esModuleInterop": true,
+			"typeRoots": ["node_modules/@types", "./types/"],
+			"lib": ["es2022", "dom"],
+			"skipLibCheck": true,
+			"skipDefaultLibCheck": true,
+			"baseUrl": ".",
+			"outDir": "dist",
+			"paths": {
+			"*": ["node_modules/*"],
+			"tslib": ["node_modules/tslib/tslib.d.ts"],
+			"@rpxa-middlewares/*": ["src/middlewares/*"],
+			"@rpxa-partners/*": ["src/partners/*"],
+			"@rpxa-routers/*": ["src/routers/*"],
+			"@rpxa-services/*": ["src/services/*"],
+			"@rpxa-utils/*": ["src/utils/*"],
+			"@rpxa-vendors/*": ["src/vendors/*"],
+			"@rpxa-root/*": ["src/*"]
+			}
+	},
+	"exclude": ["node_modules", "tmp", "**/__mocks__/*"]
+}
+  

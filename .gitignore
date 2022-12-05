@@ -1,0 +1,17 @@
+.env
+dist/
+node_modules/
+.vscode/
+
+# logs
+*.log
+npm-debug.log*
+
+# eslint
+.eslintcache
+
+.DS_Store
+
+# ignore all .key files to prevent accidental commit of private keys
+*.key
+
